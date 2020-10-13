@@ -4,7 +4,8 @@ metadata:
   creationTimestamp: null
   name: '{{ include "kubeform-community.fullname" . }}'
 spec:
-  description: Kubeform by AppsCode - Provision cloud resources using Kubernetes CRDs & Terraform
+  description: Kubeform by AppsCode - Provision cloud resources using Kubernetes CRDs
+    & Terraform
   displayName: Kubeform Bundle
   icons:
   - src: https://cdn.appscode.com/images/products/kubeform/icons/android-icon-192x192.png
@@ -24,5 +25,5 @@ spec:
       required: true
       url: https://charts.appscode.com/stable
       versions:
-      - version: v0.11.2
+      - version: v0.2.0
 status: {}
