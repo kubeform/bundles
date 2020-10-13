@@ -1,0 +1,28 @@
+apiVersion: kubepack.com/v1alpha1
+kind: Bundle
+metadata:
+  creationTimestamp: null
+  name: '{{ include "kubeform-community.fullname" . }}'
+spec:
+  description: Kubeform by AppsCode - Provision cloud resources using Kubernetes CRDs & Terraform
+  displayName: Kubeform Bundle
+  icons:
+  - src: https://cdn.appscode.com/images/products/kubeform/icons/android-icon-192x192.png
+    type: image/png
+  links:
+  - description: website
+    url: https://appscode.com/products/kubeform/
+  maintainers:
+  - email: support@appscode.com
+    name: appscode
+  namespace: kube-system
+  packages:
+  - chart:
+      features:
+      - Kubeform by AppsCode - Provision cloud resources using Kubernetes CRDs & Terraform
+      name: kubeform
+      required: true
+      url: https://charts.appscode.com/stable
+      versions:
+      - version: v0.11.2
+status: {}

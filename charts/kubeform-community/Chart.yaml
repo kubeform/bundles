@@ -1,0 +1,13 @@
+apiVersion: v2
+name: kubeform-community
+description: Kubeform Community Plan
+type: application
+version: v2020.09.29
+appVersion: v2020.09.29
+home: https://kubeform.com
+icon: https://cdn.appscode.com/images/products/kubeform/kubeform-community-icon.png
+sources:
+- https://github.com/kubeform
+maintainers:
+- name: appscode
+  email: support@appscode.com
