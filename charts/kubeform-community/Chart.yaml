@@ -2,8 +2,8 @@ apiVersion: v2
 name: kubeform-community
 description: Kubeform Community Plan
 type: application
-version: v2020.10.13
-appVersion: v2020.10.13
+version: v2020.10.30
+appVersion: v2020.10.30
 home: https://kubeform.com
 icon: https://cdn.appscode.com/images/products/kubeform/kubeform-community-icon.png
 sources:
